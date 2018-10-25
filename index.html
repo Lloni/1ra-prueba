@@ -5,20 +5,210 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Bootstrap 3.3.7 / Flatly -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
 
   <!-- Optional theme -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
 
-  <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
 
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-  <title>Landing DL Responsive</title>
-</head>
-<body>
-<body>
+  <link href="assets/images/favicon.ico" rel="icon" type="image/x-icon" />
 
+  <title>Fundación Niño y Cáncer</title>
+</head>
+
+<body>
+<!-- Navbar -->
+  <nav class="navbar navbar-default navbar-fixed-top navbar__nyc">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/logo_nyc.png" alt="logo niño y cáncer"></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="noticias.html">Noticias</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a class="dona" href="#">DONA O HAZTE SOCIO</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+<!-- Header -->
+  <header>
+    <div class="row mgn-hor-0">
+      <div class="page-header col-md-6 col-md-offset-6 col-sm-12">
+        <div class="header-content">
+          <p>Nuestro desafío es mejorar la calidad de vida de los niños con cáncer, dando apoyo social y solidario a la familia, y actividades que los lleven a desarrollarse y seguir luchando</p>
+          <p><a href="#" class="btn btn-warning" role="button"><b>TÚ TAMBIÉN PUEDES SUMARTE</b></a></p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+<!-- Sobre la fundación -->
+  <section class="container-fluid nosotros">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 nosotros__about">
+        <h2>TODO POR <span class="highlight">LOS NIÑOS</span></h2>
+        <p>La <b>Fundación Niño y Cáncer</b> es una entidad sin fines de lucro, que busca complementar el tratamiento de los niños con cáncer y/o leucemia tratados en los Hospitales Públicos (Plan AUGE y GES).
+        Esta lucha no se limita a los tratamientos médicos; la contención, apoyo e incentivo son indispensables en el proceso de curación. <b>Para derrotar el cáncer no sólo hay que preocuparse de curar el cuerpo del niño, es escencial que mantengan un espíritu luchador, alegre, que los ayude a superar los sufrimientos y mantener el deseo QUERER CURARSE</b>.</p>
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <div><a href="#" class="list-group-item">ACTIVIDADES</a></div>
+        <div><a href="#" class="list-group-item">BECAS DE ESTUDIO</a></div>
+        <div><a href="#" class="list-group-item">PROGRAMAS RECREACIONALES</a></div>
+        <div><a href="#" class="list-group-item">VOLUNTARIADO</a></div>
+      </div>
+
+    </div>
+  </section>
+
+<!-- Noticias -->
+  <section class="container-fluid noticias">
+    <div class="col-md-12 col-sm-12">
+      <h1><a href="noticias.html"></a>NUESTRAS ÚLTIMAS <span class="highlight">ACTIVIDADES</span></h1>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-4 noticias__inner">
+        <div class="thumbnail">
+          <img src="assets/images/montana.jpg" alt="foto grupal">
+          <div class="caption">
+            <small>10 de octubre de 2018</small>
+            <h3>Encuentro con la Montaña</h3>
+            <p>Se efectuó recientemente entre el 10 y 13 de Septiembre. Fue un gran logro ya que en los últimos 2 años no se había podido efectuar por problemas de infraestructura. Este año fue realmente un éxito. Participaron niños desde Antofagasta a Punta Arenas. En total asistieron 65 personas. Esperamos que el próximo año participen también los pacientes de Arica.</p>
+            <p><a href="#" class="btn btn-info" role="button">Leer más</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-4 noticias__inner">
+        <div class="thumbnail">
+          <img src="assets/images/sky.jpg" alt="foto del loco con la niña">
+          <div class="caption">
+            <small>20 de septiembre de 2018</small>
+            <h3>A volar con Sky</h3>
+            <p>La Fundación Niño y Cáncer quiere agradecer a SKY por su increible invitación. El Miércoles 4 de Octubre fuimos a volar en su nuevo avión A320neoSky.
+
+            En la foto: CEO de Sky Holger Paulmann y una paciente de oncología.</p>
+            <p><a href="#" class="btn btn-info" role="button">Leer más</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-4 noticias__inner">
+        <div class="thumbnail">
+          <img src="assets/images/montana.jpg" alt="foto grupal">
+          <div class="caption">
+            <small>8 de agosto de 2018</small>
+            <h3>Montaña de la Alegría 2018 - Realización del Taller de Ski</h3>
+            <p>La Fundación Niño y Cáncer quiere agradecer la importante ayuda recibida que ha permitido realizar con un gran éxito el Taller de Ski, como parte del Programa Montaña de la alegría 2018. En esta oportunidad 3 niños Ecuatorianos, una niña Boliviana y 3 chilenos han podido disfrutar de su estadía en la Escuela de Montaña del Ejercito de Chile del 20 al 24 de Agosto 2018 aprendiendo a esquiar en Portillo.</p>
+            <p><a href="#" class="btn btn-info" role="button">Leer más</a></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="container-fluid colaboradores">
+    <div class="col-md-12 col-sm-12">
+      <h2>NUESTROS <span class="highlight">COLABORADORES</span></h2>
+      <p>Muchas empresas chilenas ya asumieron el compromiso por el bienestar de los niños con cáncer. Fundación Niños con Cáncer está facultada para emitir certificados de donaciones constituyendo para el donante un gasto aceptado.</p>
+      <a class="btn btn-warning" href="#"><b>Averigüa aquí cómo ser parte</b></a>
+    </div>
+    <div class="row">
+      <ul class="colaboradores__logos">
+        <li><img src="assets/images/colaboradores/col_arcor.gif" alt=""></li>
+        <li><img src="assets/images/colaboradores/col_cabrera.jpg" alt=""></li>
+        <li><img src="assets/images/colaboradores/col_copec.gif" alt=""></li>
+        <li><img src="assets/images/colaboradores/col_duty.gif" alt=""></li>
+        <li><img src="assets/images/colaboradores/col_ejercito.jpg" alt=""></li>
+        <li><img src="assets/images/colaboradores/col_falabella.gif" alt=""></li>
+        <li><img src="assets/images/colaboradores/col_kampar.gif" alt=""></li>
+        <li><img src="assets/images/colaboradores/col_librnac.gif" alt=""></li>
+        <li><img src="assets/images/colaboradores/col_mercurio.gif" alt=""></li>
+        <li><img src="assets/images/colaboradores/col_nestle.gif" alt=""></li>
+        <li><img src="assets/images/colaboradores/col_onestop.gif" alt=""></li>
+        <li><img src="assets/images/colaboradores/col_portillo.gif" alt=""></li>
+        <li><img src="assets/images/colaboradores/col_providencia.gif" alt=""></li>
+        <li><img src="assets/images/colaboradores/col_radisson.jpg" alt=""></li>
+        <li><img src="assets/images/colaboradores/col_scl.gif" alt=""></li>
+        <li><img src="assets/images/colaboradores/col_soprole.gif" alt=""></li>
+      </ul>
+    </div>
+  </section>
+
+<!-- Footer -->
+  <footer class="footer container-fluid">
+    <div class="row">
+
+<!-- Formulario -->
+      <div class="col-md-4 col-sm-12 contacto">
+        <form role="form">
+        <!-- <br style="clear:both"> -->
+          <h3>Contáctanos</h3>
+    			<div class="form-group" id="contacto">
+						<input type="text" class="form-control" id="name" name="name" placeholder="Nombre" required>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+					</div>
+  				<div class="form-group">
+						<input type="text" class="form-control" id="subject" name="subject" placeholder="Asunto" required>
+					</div>
+          <div class="form-group">
+            <textarea class="form-control" type="textarea" id="message" placeholder="Mensaje" rows="5"></textarea>
+          </div>
+        <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Enviar</button>
+        </form>
+      </div>
+
+  <!-- Ubicación y otros datos -->
+      <div class="col-md-4 col-sm-12 ubicacion">
+        <h3>Santiago, Chile</h3>
+    		<div class="direccion">
+    			<p><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Tupungato 10070 Vitacura, Santiago de Chile</p>
+    		</div>
+
+    		<div class="email">
+    			<p><span class="glyphicon glyphicon-envelope" aria-hidden="true">
+    			<a href="mail:fundacion@ninoycancer.cl">fundacion@ninoycancer.cl</a></p>
+    		</div>
+
+    		<div class="phone">
+    			<p><span class="glyphicon glyphicon-earphone" aria-hidden="true">
+    			<a href="tel:+56 22170821"> 56 22170821 </a> - <a href="tel:+56 22170811"> 56 22170811 </a></p>
+    		</div>
+      </div>
+
+  <!-- Google Maps -->
+      <div class="col-md-4 col-sm-12 mapa">
+        <h3>Visítanos</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.5091340796935!2d-70.53869863332717!3d-33.383878990396546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1sen!2scl!4v1540380878883" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-sm-12 attribution">
+      <small>© 2018 Fundación Niño y Cáncer. Todos los derechos reservados.  <a href="#">Términos y Condiciones</a></small>
+    </div>
+  </footer>
 </body>
 </html>

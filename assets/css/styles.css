@@ -1,0 +1,242 @@
+/* Estilos globales */
+
+body {
+  margin: 0;
+  margin-top: 50px;
+  background-color: white;
+}
+
+.highlight {
+  color: #0060a8;
+  font-weight: bolder;
+}
+
+/* Elementos y bloques */
+
+/* Navbar */
+
+.navbar {
+  background-color: #0060a8;
+}
+
+.navbar img {
+  max-height: 40px;
+  margin-top: -5px;
+}
+
+.dona {
+  background-color: orange;
+}
+
+/* Header */
+
+header {
+  /* height: 90vh; */
+}
+
+.mgn-hor-0 {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.page-header {
+  background: url("/assets/images/fondo_bn.jpg") no-repeat center top;
+  background-size: cover;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  height: 90vh;
+}
+
+.header-content {
+  padding: 10px 10vw;
+  margin-top: 60vh;
+  font-size: 2rem;
+  color: white;
+  /* background-color: hsla(0, 0%, 0%, 0.3); */
+}
+
+@media only screen and (max-width: 767px) {
+.header-content {
+  margin-top: 0;
+  padding-top: 60vh;
+  }
+}
+
+/* Sobre la fundación */
+
+.list-group-item {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+/* Noticias */
+
+.noticias {
+  padding: 3vh 10vw;
+  background-color: #eee;
+  text-align: center;
+}
+
+.noticias h1{
+  padding: 10px;
+}
+
+.caption {
+  text-align: left;
+}
+
+/* Nosotros */
+
+.nosotros {
+  padding: 10vh 10vw;
+  background-color: #fdd6d6;
+}
+
+.nosotros__servicios {
+  margin: auto;
+}
+
+/* Colaboradores */
+
+.colaboradores {
+  padding: 10vh 10vw;
+  text-align: center;
+  background-color: #e4f9ff;
+}
+
+.colaboradores__logos {
+  list-style: none;
+  display: inline;
+  margin-top: 20px;
+}
+
+.colaboradores__logos li {
+  display: inline;
+  padding: 10px;
+}
+
+.colaboradores__logos img {
+  margin-top: 10px;
+}
+
+/* Footer */
+
+.footer {
+  color: #fff;
+  background-color: #444;
+  padding: 10vh 10vw;
+}
+
+form .btn {
+  background-color: #0060a8;
+}
+
+.ubicacion a {
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.attribution {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/*
+
+NOSOTROS
+
+ */
+
+ .page-header-nosotros {
+  background: grey url("/assets/images/futbolito1.jpg") no-repeat center top;
+  background-size: cover;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  height: 550px;
+ }
+
+ .header-content-nosotros {
+  padding: 10px 10vw;
+  margin-top: 300px;
+  color: white;
+  background-color: hsla(0, 0%, 0%, 0.3);
+ }
+
+@media only screen and (max-width: 767px) {
+  .header-content-nosotros {
+    margin-top: 0;
+    padding-top: 250px;
+    }
+
+
+ }
+
+.que-hacemos {
+  padding: 20px 10vw;
+  text-align: center;
+}
+
+
+.objetivos {
+  padding: 10vh 10vw;
+  text-align: center;
+  background-color: #e4f9ff;
+}
+
+.caption {
+  text-align: center;
+}
+
+.consejo {
+  text-align: center;
+  padding: 20px 10vw;
+}
+
+.consejo__nombre {
+  text-align: right;
+  font-weight: bold;
+}
+
+.consejo__cargo {
+  text-align: left;
+}
+
+
+
+/*
+
+BLOG
+
+ */
+
+.media {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.container-blog {
+  background-color: #eee;
+}
+
+.media-object {
+  max-width: 20vw;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .media-object {
+    max-width: 30vw;
+    display: block;
+  }
+
+  .consejo__nombre {
+    text-align: left;
+  }
+
+  .container-blog {
+    padding-top: 10px;
+  }
+
+}
