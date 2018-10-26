@@ -40,7 +40,7 @@ header {
 }
 
 .page-header {
-  background: url("/assets/images/fondo_bn.jpg") no-repeat center top;
+  background: url("../../assets/images/fondo_bn.jpg") no-repeat center top;
   background-size: cover;
   text-align: center;
   margin: 0;
@@ -148,7 +148,7 @@ NOSOTROS
  */
 
  .page-header-nosotros {
-  background: grey url("/assets/images/futbolito1.jpg") no-repeat center top;
+  background: url("../../assets/images/futbolito1.jpg") no-repeat center top;
   background-size: cover;
   text-align: center;
   margin: 0;
@@ -228,7 +228,6 @@ BLOG
 @media only screen and (max-width: 767px) {
   .media-object {
     max-width: 30vw;
-    display: block;
   }
 
   .consejo__nombre {
